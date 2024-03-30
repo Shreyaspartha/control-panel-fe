@@ -13,10 +13,10 @@ const QRCodeForm = () => {
     setQrCode("");
   };
 
-  const generateQr = async (qrUrl: string) => {
-    if (qrUrl !== "") {
+  const generateQr = async (partDetail: string) => {
+    if (partDetail) {
       const canvas = document.createElement("canvas");
-      setQrCode(await QRCode.toDataURL(canvas, qrUrl, { width: 200 }));
+      setQrCode(await QRCode.toDataURL(canvas, partDetail, { width: 200 }));
     }
   };
 

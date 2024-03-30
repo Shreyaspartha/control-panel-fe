@@ -4,7 +4,7 @@ import partDetails from "./assets/resources/partDetails.json";
 import { ProductDetail } from "./utils/types";
 
 interface QRCodeGeneratorProps {
-  onGenerateQR: (qrUrl: string) => void;
+  onGenerateQR: (partDetail: string) => void;
   onClearQRCode: () => void;
   onSetError: (isError: boolean) => void;
 }
@@ -36,7 +36,7 @@ const QRCodeInput: React.FC<QRCodeGeneratorProps> = ({
 
     if (partRefDetail) {
       onSetError(false);
-      onGenerateQR(qrUrl);
+      onGenerateQR(JSON.stringify(partRefDetail));
     } else {
       onSetError(true);
     }

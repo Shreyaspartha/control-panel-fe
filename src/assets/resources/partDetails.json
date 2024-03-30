@@ -1,0 +1,20 @@
+[
+  {
+    "partRefId": "1SDA068058R1",
+    "invRefId": "INV20240306001",
+    "qty": 10,
+    "bin": "R1B1"
+  },
+  {
+    "partRefId": "1SDA070169S2",
+    "invRefId": "INV20240306002",
+    "qty": 5,
+    "bin": "R2B2"
+  },
+  {
+    "partRefId": "1SDB181270T3",
+    "invRefId": "INV20240306003",
+    "qty": 20,
+    "bin": "R3B3"
+  }
+]

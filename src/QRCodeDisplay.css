@@ -1,0 +1,15 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .printable-content {
+    visibility: visible;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}

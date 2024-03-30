@@ -3,14 +3,9 @@
   "name": "Generating QR Codes for parts",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "qrcode.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    },
-    {
-      "src": "qrCode.jpg",
-      "type": "image/jpg",
-      "sizes": "192x192"
     }
   ],
   "start_url": ".",
